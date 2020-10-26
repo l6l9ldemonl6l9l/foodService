@@ -1,0 +1,7 @@
+distributedsystems/foodService/FoodApplication.class
+distributedsystems/foodService/api/restControllers/FoodController.class
+distributedsystems/foodService/services/models/Food.class
+distributedsystems/foodService/services/IService/FoodIService.class
+distributedsystems/foodService/services/repository/FoodRepository.class
+distributedsystems/foodService/services/Service/FoodService.class
+distributedsystems/foodService/api/payload/FoodPayload.class

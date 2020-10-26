@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: food
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: food
+  template:
+    metadata:
+      labels:
+        app: food
+    spec:
+      containers:
+        -
+          image: my_story/food_service
+          name: food
+          imagePullPolicy: Never
+          ports:
+            -
+              containerPort: 8081
+              name: food
+          env:
+            - name: POSTGRES_ENDPOINT
+              value: "jdbc:postgresql://127.0.1.0:5432/"
+            - name: POSTGRES_PASSWORD
+              value: "hello"
+            - name: POSTGRES_USERNAME
+              value: "postgres"
+            - name: FOOD_URL
+              value: "http://story-food"

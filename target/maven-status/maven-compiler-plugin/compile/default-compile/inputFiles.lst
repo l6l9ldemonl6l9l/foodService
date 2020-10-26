@@ -1,0 +1,7 @@
+/home/virus/IdeaProjects/foodService/src/main/java/distributedsystems/foodService/services/repository/FoodRepository.java
+/home/virus/IdeaProjects/foodService/src/main/java/distributedsystems/foodService/services/Service/FoodService.java
+/home/virus/IdeaProjects/foodService/src/main/java/distributedsystems/foodService/services/IService/FoodIService.java
+/home/virus/IdeaProjects/foodService/src/main/java/distributedsystems/foodService/services/models/Food.java
+/home/virus/IdeaProjects/foodService/src/main/java/distributedsystems/foodService/api/payload/FoodPayload.java
+/home/virus/IdeaProjects/foodService/src/main/java/distributedsystems/foodService/FoodApplication.java
+/home/virus/IdeaProjects/foodService/src/main/java/distributedsystems/foodService/api/restControllers/FoodController.java
